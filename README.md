@@ -52,3 +52,9 @@ pyinstaller -F VCFsearch.py
 # Run the executable
 ./dist/VCFsearch
 ```
+
+## License
+
+`vcf-search` is open-source software licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+**MIT License**
