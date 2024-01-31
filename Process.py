@@ -1,10 +1,13 @@
 from FindDatatypes import findHeaderLine
+import os
 
 def process(file, parameters, columnIndex, columnType):
     header = findHeaderLine(file)
     delim = '\t'
     if file.endswith('.csv'):
         delim = ','
+    if os.path.isfile('temp'):
+        os.remove('temp')
     with open(f'temp', 'w') as opened:
         opened.write(header)
         foundHeader = False
