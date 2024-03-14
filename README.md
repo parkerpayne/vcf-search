@@ -47,10 +47,10 @@
 pip install pyinstaller
 
 # Compile into an executable
-pyinstaller -F VCFsearch.py
+pyinstaller -F app.py
 
 # Run the executable
-./dist/VCFsearch
+./dist/app
 ```
 
 ## License
