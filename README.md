@@ -40,7 +40,7 @@
 
 ## Compilation and Execution
 
-`vcf-search` is a 100% Python tool. It can be compiled into an executable for easy distribution. Follow the steps below:
+`vcf-search` is a 100% Python tool. It can be compiled into an executable for easy distribution. Ensure all necessary packages are installed, then follow the steps below:
 
 ```bash
 # Install dependencies
